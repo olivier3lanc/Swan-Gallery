@@ -1,0 +1,215 @@
+/**
+* INFINITE
+* Dark skin
+* Swan Gallery
+* @version 0.9
+* @author Olivier Blanc http://www.egalise.com/swan-gallery/
+* @license MIT
+*/
+
+
+/*
+* BASE
+*/
+body {	
+	/*opacity: 0;*/
+	background-color: #222222;
+	/*overflow: hidden*/
+}
+
+
+/*
+* MAIN CONTENT
+*/
+h2, h3, h4,
+p, span, li, div {
+	color: #999999
+}
+
+
+/*
+* CAROUSEL
+*/
+.carousel .carousel-caption h3 {
+	color: #FFF
+}
+
+/*
+* IMAGE CONTAINER
+*/
+.infinite-img-title {
+	color: #EEE;
+}
+.infinite-img-title a,
+.infinite-img-title a span,
+.infinite-img-title a:active,
+.infinite-img-title a:focus {
+	color: #888;
+}
+.infinite-img-title a:hover,
+.infinite-img-title a:hover span {
+	color: #FFF;
+}
+.infinite-img-description a,
+.infinite-img-description a:focus {
+	border-bottom: 1px solid #999;
+	color: #999;
+}
+.infinite-img-description a:hover {
+	border-bottom: 1px solid #EEE;
+	color: #EEE;
+}
+.infinite-img-link.form-control {
+	background-color: #333;
+	border-color: #333;
+	color: #AAA;
+}
+.infinite-img-tags .icon-tag {
+	color: #555;
+}
+.btn-primary,
+.btn-primary:focus {
+	background-color: #444;
+	border-color: #454545;
+	color: #DDD;
+}
+.btn-primary:hover {
+	background-color: #333;
+	border-color: #353535;
+	color: #FFF;
+}
+.btn-facebook,
+.btn-facebook:focus {
+	background-color: #3b5998;
+	border-color: #3b5998;
+	color: #FFF;
+}
+.btn-twitter,
+.btn-twitter:focus {
+	background-color: #55acee;
+	border-color: #55acee;
+	color: #FFF;
+}
+.btn-facebook:hover,
+.btn-twitter:hover {
+	opacity: 0.7;
+	color: #FFF;
+}
+
+
+
+/*
+* SIDEBAR
+*/
+#infinite-gallery-title a,
+#infinite-gallery-title a:active,
+#infinite-gallery-title a:focus {
+	color: #EEE;
+}
+h1#infinite-gallery-title a:hover,
+p#infinite-gallery-title a:hover {
+	color: #FFF
+}
+#infinite-socials a:hover span {
+	color: #FFF
+}
+#infinite-sidebar-container .form-control {
+	background-color: #333;
+	border-color: #333;
+	color: #FFF
+}
+#infinite-sidebar-container .btn-default,
+#infinite-sidebar-container .btn-default:focus, 
+#infinite-sidebar-container .btn-default:hover {
+	background-color: #333;
+	border-color: #333;
+	color: #FFF
+}
+#infinite-tags>li.active a {
+	color: #FFF
+}
+#infinite-tags>li>a {
+	color: #AAA;
+}
+#infinite-tags>li>a:hover {
+	color: #FFF;
+	background-color: #353535;
+}
+#infinite-toggle-tags-btn,
+#infinite-toggle-tags-btn span,
+#infinite-toggle-tags-btn:focus {
+	color: #777 !important
+}
+
+/*
+* NAVBAR
+*/
+#infinite-navbar {
+	background-color: #151515;
+}
+#infinite-navbar>a {
+	color: #AAA;
+}
+#infinite-navbar>a:hover span {
+	color: #FFF
+}
+
+
+/*
+* FOOTER
+*/
+footer a,
+footer a:focus {
+	color: #888;
+}
+footer a:hover {
+	color: #EEE;
+}
+
+
+/*
+* GO TO TOP
+*/
+#go-to-top {
+	background: #333
+}
+#go-to-top:hover span {
+	color: #FFF;
+}
+
+/*
+* DEVICES LARGER THAN 1200px
+*/
+
+@media (min-width: 1200px) {
+
+}
+
+/*
+* DEVICES SMALLER THAN 1200px
+*/
+
+@media (max-width: 1199px) {
+	#infinite-sidebar-container {
+		background-color: #222;
+	}
+}
+
+
+/*
+* DEVICES LARGER THAN 768px
+*/
+
+@media (min-width: 769px) {
+
+}
+
+
+/*
+* DEVICES SMALLER THAN 769px
+*/
+
+@media (max-width: 768px) {
+
+
+}
